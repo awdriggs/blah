@@ -1,0 +1,9 @@
+html {
+  background-image: url("./imgs/whitebrick.jpg"); 
+}
+
+.under-construction {
+   display: block;
+   width: 500px;
+   margin: 0 auto;
+}
