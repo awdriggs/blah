@@ -10,5 +10,5 @@ Done a lot with HTML and CSS, so I'm looking into SVG animations using only CSS 
 - [CSS Tricks - Random](https://css-tricks.com/random-numbers-css/) 
 - [Gradient Animation](https://codepen.io/P1N2O/pen/pyBNzX)
 - [Dev Article - Gradient Animation](https://dev.to/afif/we-can-finally-animate-css-gradient-kdk)
-[
+- [CSS Tricks - mouse position](https://css-tricks.com/how-to-map-mouse-position-in-css/)
 
