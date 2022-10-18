@@ -1,0 +1,39 @@
+/* html { */
+/*   background-image: url("./imgs/whitebrick.jpg"); */
+/* } */
+
+.under-construction {
+  display: block;
+  width: 500px;
+  margin: 0 auto;
+}
+
+/* for styling the form */
+input[type=text] {
+  font-size: 200px;
+  text-align: center;
+  width: 100%;
+  background: transparent;
+  border: none;
+}
+
+button {
+  display: block;
+  margin: 100px auto;
+  font-size: 40px;
+  text-align: center;
+  padding: 40px 26px;
+  border: 2px solid #EFEFEF;
+  border-radius: 15%;
+}
+ 
+label {
+  font-size: 100px;
+  font-family: helvetica, sans-serif;
+  display: block;
+  text-align: center;
+}
+
+*:focus {
+    outline: none;
+}
