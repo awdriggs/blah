@@ -14,7 +14,7 @@ body {
   width: 99%;
 }
 
-#title {
+.title {
   font-size: 8rem;
   text-align: center;
   margin: 0;
@@ -49,13 +49,50 @@ li:hover {
 
 /* animation for keyframes page */
 @keyframes blink{
-  to {color: hotpink;}
+
+  to {
+    color: transparent;
+  }
 }
 
 .blink{
-  color: transparent;
+  color: hotpink;
   /* visibility: hidden; */
 	animation: blink 0.1s infinite;
 }
 
+.delay {
+  width: 500px;
+  position: absolute;
+  left: 50%;
+  top: 20vh;
+  margin: -250px;
+}
+.one {
+  animation: blink 0.5s infinite;
+  animation-delay: -2.3s;
+} 
 
+.two {
+  color: orange;
+  margin: -240px;
+  z-index: -1;
+  animation: blink 0.5s infinite;
+  animation-delay: -2.2s;
+}
+
+.three {
+  color: green;
+  margin: -230px;
+  z-index: -2;
+  animation: blink 0.5s infinite;
+  animation-delay: -2.1s;
+}
+
+.four {
+  color: blue;
+  margin: -220px;
+  z-index: -3;
+  animation: blink 0.5s infinite;
+  animation-delay: -2s;
+}
