@@ -1,0 +1,61 @@
+body {
+  color: black;
+  font-family: 'Nunito Sans', sans-serif;
+  font-style: italic;
+}
+
+#splash {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+  width: 99%;
+}
+
+#title {
+  font-size: 8rem;
+  text-align: center;
+  margin: 0;
+}
+
+#tagline {
+  margin: 0;
+  margin-top: -25px;
+}
+
+a, a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+li:hover {
+  text-decoration: underline;
+}
+
+#home {
+  font-style: normal;
+  font-size: 2rem;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+
+#home:hover {
+  color: #ff69b4;
+  /* can you figure out how to make this a random color with just CSS? */
+}
+
+/* animation for keyframes page */
+@keyframes blink{
+  to {color: hotpink;}
+}
+
+.blink{
+  color: transparent;
+  /* visibility: hidden; */
+	animation: blink 0.1s infinite;
+}
+
+
